@@ -4,14 +4,11 @@ description = ''
 authors = []
 telemetry = true
 cache_dir = './.cache'
-requirements = []
+
+[[project.requirements]]
+contract_id = 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.nft-trait'
 [contracts.SimpleNFT]
 path = 'contracts/SimpleNFT.clar'
-clarity_version = 3
-epoch = 3.1
-
-[contracts.nft-trait]
-path = 'contracts/nft-trait.clar'
 clarity_version = 3
 epoch = 3.1
 [repl.analysis]
