@@ -11,6 +11,11 @@ contract_id = 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.nft-trait'
 path = 'contracts/SimpleNFT.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.marketpalce]
+path = 'contracts/marketpalce.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 

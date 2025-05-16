@@ -9,19 +9,15 @@
 (define-constant ERR-NOT-FOUND (err u101))
 (define-constant ERR-METADATA-FROZEN (err u102))
 
-
-
 ;; Data variables
 (define-data-var last-token-id uint u0)
 (define-data-var metadata-frozen bool  false)
-
 
 ;; nft metadata mapping
 (define-map token-uris uint (string-ascii 256))
 
 ;;token ownership
 (define-map token-owners uint principal)
-
 
 ;;SIP-009 functions
 ;; read only functions
