@@ -52,6 +52,7 @@
     (var-set last-token-id token-id)
     (map-set token-owners token-id owner)
     (map-set token-uris token-id metadata-uri)
+    ;; (try! (nft-mint? asset-name asset-identifier recipient))
     (ok token-id)
   )
 )
