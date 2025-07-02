@@ -1,3 +1,5 @@
+
+
 ;; title: Token
 ;; version:3
 ;; summary:This is the fungible token for my nft marketplace.
@@ -70,4 +72,7 @@
         (ft-burn? marketplace-coin amount tx-sender)
     )
 )
+
+
+
 
